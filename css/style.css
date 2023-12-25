@@ -1,0 +1,84 @@
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 300;
+  src: url("../fonts/Poppins-Light.woff2") format("woff2"),
+    url("../fonts/Poppins-Light.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+    url("../fonts/Poppins-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 600;
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("../fonts/Poppins-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 900;
+  src: url("../fonts/Poppins-Black.woff2") format("woff2"),
+    url("../fonts/Poppins-Black.woff") format("woff");
+}
+
+* {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+/* Hero */
+
+.hero {
+  padding: 272px 0;
+}
+
+.hero-span {
+  color: #819b57;
+  font-size: 128px;
+  font-weight: 900;
+}
+
+.hero__title {
+  margin-bottom: 0;
+  color: #faf4ea;
+  text-align: center;
+  font-size: 128px;
+  font-weight: 900;
+}
+
+.traditions__section {
+  padding-top: 96px;
+}
+
+.traditions__title {
+  margin-bottom: 42px;
+}
+
+.chefs__title {
+  margin-bottom: 80px;
+}
